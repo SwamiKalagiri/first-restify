@@ -1,0 +1,32 @@
+{
+  "name": "first-restify",
+  "version": "1.0.0",
+  "description": "Repository for restify js sandbox",
+  "main": "application.js",
+  "scripts": {
+    "start": "node ./lib/application.js",
+    "babel":"babel ./src --out-dir ./lib/",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SwamiKalagiri/first-restify.git"
+  },
+  "keywords": [
+    "restify"
+  ],
+  "author": "Swami Kalagiri <swami.kalagiri.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SwamiKalagiri/first-restify/issues"
+  },
+  "homepage": "https://github.com/SwamiKalagiri/first-restify#readme",
+  "dependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "restify": "^4.3.0"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2"
+  }
+}
